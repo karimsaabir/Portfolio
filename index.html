@@ -7,6 +7,7 @@
   <title>Tailwind Css</title>
   <!-- Import Poppins font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
@@ -24,6 +25,38 @@
       </div>
     </div>
   </nav>
+
+  <section
+    class="max-w-6xl mx-auto flex items-center justify-center gap-20 h-[80vh] pt-[4vh] mx-[10rem] my-0 min-h-fit">
+    <div class="h-[400px] w-[400px] my-auto overflow-clip rounded-full shadow-lg ">
+      <img src="/s.JPG" alt="Sabir">
+    </div>
+
+    <div class="self-center text-center">
+      <p class="font-semibold text-[#555555] mt-4 mb-4">Hello, I'm</p>
+      <h1 class="text-5xl mt-3 mb-3 font-bold">Karim Sabir</h1>
+      <h2 class="font-semibold text-[1.75rem] text-[#555555] mt-4 mb-4">Frontend Developer
+        <h2 />
+
+        <div class="flex justify-center gap-4">
+          <a href="https://www.instagram.com/karimsaabir9/"
+            class="font-semibold transition-all duration-300 ease-in-out p-4 w-40 rounded-full border border-gray-800 hover:bg-gray-800 hover:text-white cursor-pointer">
+            Download CV
+          </a>
+          <a href="contact"
+            class="bg-[#353535] text-white font-semibold transition-all duration-300 ease-in-out p-4 w-40 rounded-[2rem] border border-[#353535] hover:bg-gray-700 cursor-pointer inline-flex items-center justify-center">
+            Contact Info
+          </a>
+        </div>
+
+        <div class="flex justify-center mt-4 gap-4">
+          <img src="/linkedin-in-brands-solid-full.svg" alt="My LinkedIn profile" class="h-8 cursor-pointer" onclick="location.href='https://www.linkedin.com/in/sabir-salad-hassan-36260819a/'"/>
+          <img src="./github-brands-solid-full.svg" alt="My Github profile" class="h-8 cursor-pointer" onclick="location.href='https://github.com/karimsaabir'"/>
+        </div>
+
+    </div>
+
+  </section>
 </body>
 
 </html>
